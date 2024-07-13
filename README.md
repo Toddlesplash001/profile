@@ -14,7 +14,9 @@
   <a href="https://github.com/Yaar-Beli/CMart.git" target="_blank">
     <img src="https://img.shields.io/badge/Project-CMart-red" alt="CMart">
   </a>
+  <a href = "https://legacy.reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html">
   <img src="https://img.shields.io/badge/Learning-ReactJS-61DAFB" alt="ReactJS">
+  </a>
 </p>
 
 - 🔭 I’m currently working on [CMart](https://github.com/Yaar-Beli/CMart.git)
