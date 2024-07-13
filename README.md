@@ -2,12 +2,18 @@
 <h3 align="center">A passionate web developer and engineering student from India</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LinkedIn-kuwarjainn-blue" alt="LinkedIn">
-  <img src="https://img.shields.io/badge/LeetCode-toddlesplash001-brightgreen" alt="LeetCode">
+  <a href="https://www.linkedin.com/in/kuwar-jain-55aa02257/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-kuwarjainn-blue" alt="LinkedIn">
+  </a>
+  <a href="https://leetcode.com/Toddlesplash001" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-toddlesplash001-brightgreen" alt="LeetCode">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Yaar-Beli/CMart.git"><img src="https://img.shields.io/badge/Project-CMart-red" alt="CMart"></a>
+  <a href="https://github.com/Yaar-Beli/CMart.git" target="_blank">
+    <img src="https://img.shields.io/badge/Project-CMart-red" alt="CMart">
+  </a>
   <img src="https://img.shields.io/badge/Learning-ReactJS-61DAFB" alt="ReactJS">
 </p>
 
@@ -18,10 +24,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/kuwar-jain-55aa02257/">
+  <a href="https://www.linkedin.com/in/kuwar-jain-55aa02257/" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kuwarjainn" height="30" width="40" />
   </a>
-  <a href="https://www.leetcode.com/Toddlesplash001">
+  <a href="https://leetcode.com/Toddlesplash001" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="toddlesplash001" height="30" width="40" />
   </a>
 </p>
