@@ -14,7 +14,7 @@ li a {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-color: #2857a4;
+    /* background-color: #2857a4; */
     /* background-image: url(wallpaper.jpg); */
     background-size: cover;
     background-position: center;
