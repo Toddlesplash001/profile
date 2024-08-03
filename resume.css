@@ -232,41 +232,99 @@ section:nth-child(2n + 1) {
 }
 /* WORK EXPERIENCE */
 
-.timeline{
-    height:auto;
-    width:75%;
-    /* border: 2px solid black; */
+/* Timeline Container */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
-.timeline-box{
-    height: 200px;
-    width:40%;
-    /* border: 2px solid black; */
-    margin:35px;
+
+/* Timeline Box */
+.timeline-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    z-index: 1; /* Ensure the box is above the divider */
 }
-.timeline-box:nth-child(2n){
-    position:relative;
-    left:53%;
+
+/* Alternate positioning for larger screens */
+@media (min-width: 768px) {
+    .timeline {
+        flex-direction: alternate;
+        flex-wrap: wrap;
+    }
+
+    .timeline-box:nth-child(odd) {
+        margin-right: auto;
+        text-align: right;
+    }
+
+    .timeline-box:nth-child(even) {
+        margin-left: auto;
+        text-align: left;
+    }
 }
-.timeline-divider{
-    width:0;
-    height:85%;
-    border: 2px dotted cyan;
+
+/* Timeline Divider */
+.timeline-divider {
+    width: 2px;
+    height: 100%;
+    background: cyan;
     position: absolute;
-    top: 180%;
-    left:50%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; /* Behind the timeline boxes */
 }
-.timeline-divider1{
-    width:0;
-    height:73%;
-    border: 2px dotted cyan;
+
+/* Vertical divider for the parent section */
+.timeline-divider1 {
+    width: 2px;
+    height: 100%;
+    background: cyan;
     position: absolute;
-    top: 185%;
-    left:50%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 0; /* Behind the timeline boxes */
 }
+
+/* Timeline Traveler */
 .timeline-traveler{
     position:sticky;
     top:10%;
     transform: rotate(90deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .timeline {
+        flex-direction: column;
+        align-items: center;
+        /* display: none; */
+    }
+
+    .timeline-divider1 {
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+
+    .timeline-traveler {
+        left: 50%;
+        transform: translateX(-50%) rotate(90deg);
+        display: none;
+    }
 }
 
 
