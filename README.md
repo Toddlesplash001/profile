@@ -19,8 +19,8 @@
   </a>
 </p>
 
-- 🔭 I’m currently working on [CMart](https://github.com/Yaar-Beli/CMart.git)
-- 🌱 I’m currently learning **ReactJS**
+- 🔭 I’m currently working on [InformaHub](https://github.com/Yaar-Beli/CMart.git)
+- 🌱 I’m currently learning **Artifical Intelligence**
 - 💬 Ask me about **NodeJS, Tailwind CSS**
 - 📫 How to reach me: **kuwarjain8@gmail.com**
 
